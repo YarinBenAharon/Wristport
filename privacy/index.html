@@ -1,0 +1,185 @@
+<!doctype html>
+<!-- Wristport privacy policy (en + he). -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wristport Privacy Policy</title>
+<meta name="description" content="How the Wristport app for Galaxy Watch and Android phones handles your health data.">
+<style>
+  :root {
+    --bg: #F5F7FB; --card: #FFFFFF; --text: #151A24; --muted: #4A5366; --line: #C9D0DD;
+    --accent: #0B7A50; --warn-bg: #FFF4D6; --warn-text: #5C4300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0E14; --card: #151A24; --text: #E8ECF4; --muted: #A3ABBE; --line: #222937;
+      --accent: #2EE59D; --warn-bg: #3A2E0A; --warn-text: #FFE08A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Hebrew", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  nav { display: flex; gap: 12px; justify-content: flex-end; margin-bottom: 8px; }
+  nav a { color: var(--accent); font-weight: 600; text-decoration: none; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; }
+  section.lang { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 8px 24px 24px; margin-top: 16px; }
+  h1 { font-size: 1.7rem; margin: 16px 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 6px; }
+  p, li { color: var(--text); }
+  .meta { color: var(--muted); margin: 0 0 12px; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 0.95rem; }
+  th, td { text-align: start; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .table-wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+<nav aria-label="Language"><a href="#en" lang="en">English</a><a href="#he" lang="he">עברית</a></nav>
+
+<section class="lang" id="en" lang="en" dir="ltr">
+<h1>Wristport Privacy Policy</h1>
+<p class="meta">Last updated: 12 November 2026</p>
+
+<p>Wristport is an app for your Android phone and your Galaxy Watch (Wear OS). It reads health and activity data from your watch and shows it on your phone. This policy explains what data the app handles, where it is kept, and the choices you have. In short: <strong>your health data stays on your own devices</strong>, unless you turn on the optional Google Drive backup, which stores a copy in your own Google account. We have no server, we do not sell data, and the app has no ads or analytics.</p>
+
+<h2>1. Who we are</h2>
+<p>Wristport is developed by Yarin Ben Aharon ("we", "us"). Contact: <a href="mailto:wristport.support@gmail.com">wristport.support@gmail.com</a>.</p>
+
+<h2>2. What data the app handles</h2>
+<div class="table-wrap"><table>
+<tr><th>Data</th><th>Why</th></tr>
+<tr><td>Heart rate, beat-to-beat intervals (for heart-rate variability), blood oxygen (SpO2), skin temperature</td><td>Measured by your watch's sensors when you start a measurement, a workout or an automatic schedule; shown as results, history and trends.</td></tr>
+<tr><td>Steps, floors, workouts (type, time, duration, heart rate, calories, distance, speed)</td><td>Shown as your daily activity and workout history.</td></tr>
+<tr><td>Blood pressure readings</td><td>Entered by you, or imported from Health Connect if you allow it; shown as a log and trends.</td></tr>
+<tr><td>Profile: sex, birth date, height, weight, fitness level, training goal</td><td>Used to calculate your heart-rate zones and targets. Entered by you; optional.</td></tr>
+<tr><td>Settings, alert rules, the date you accepted the terms</td><td>To make the app work the way you set it up.</td></tr>
+<tr><td>Location (GPS) during outdoor workouts</td><td>Only if you turn GPS on for a workout and allow location on the watch. Used to calculate distance and speed. <strong>Location points are not saved and not sent to the phone.</strong></td></tr>
+<tr><td>Watch battery level and connection state</td><td>Shown on the Device screen.</td></tr>
+<tr><td>Your Google account name, email address and account ID (only if you sign in with Google)</td><td>To link your profile and backup to your Google account. See section 5.</td></tr>
+</table></div>
+<p>The app does not collect your contacts, messages, photos, advertising ID or precise location history.</p>
+
+<h2>3. Where your data is stored</h2>
+<p>All data is stored in the app's private storage on your phone, and some of it briefly on your watch while it is being measured. Phone and watch exchange data through Google Play services' Wear OS Data Layer, normally over Bluetooth; when Bluetooth is not available, Google's Wear OS service may relay it over Wi-Fi or the internet in encrypted form. We, the developer, never receive your data.</p>
+<p>The app reads the watch sensors through Samsung's Health Sensor SDK and Google's Health Services on the watch. The app does not send your data to Samsung or Google; their own software on the watch works under their own privacy policies.</p>
+
+<h2>4. Health Connect</h2>
+<p>If you allow it, Wristport reads <strong>blood pressure</strong> records from Health Connect on your phone (for example from a blood pressure monitor's app). It does not write to Health Connect. Data read from Health Connect is used only to show it in Wristport, is stored on your phone like the rest of your data, and is included in your own export or optional backup. It is not used for advertising, not sold, and not shared with anyone. You can withdraw this permission at any time in Health Connect or in Wristport's Settings.</p>
+
+<h2>5. Optional: Google sign-in and Google Drive backup</h2>
+<p>You can use Wristport as a guest, with no account. If you choose to sign in with Google:</p>
+<ul>
+<li>We receive your Google account name, email address and account ID from Google, to show which account is linked. They are stored on your phone.</li>
+<li>If you also turn on backup, the app saves a copy of your Wristport data (the data listed in section 2, except location, which is never kept) to a hidden app folder in <strong>your own Google Drive</strong>. Only Wristport can read that folder; we, the developer, cannot. The backup runs automatically (on Wi-Fi while charging) and when you tap "Back up now", so you can restore your data on a new phone.</li>
+<li>Google stores the backup under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+<li>You can delete the backup in Wristport's Settings, or remove Wristport's access in your Google account settings, which also removes its hidden Drive folder.</li>
+</ul>
+<p>Wristport's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>6. Sharing</h2>
+<p>We do not sell, rent or share your data with anyone, and we do not use it for advertising. Your data leaves your devices only when you choose: when you export it to a file (Settings, "Export my data"), or through the optional Google Drive backup described above. What you do with an exported file is up to you.</p>
+
+<h2>7. How long data is kept</h2>
+<p>Data stays on your phone until you delete it. You can delete everything with "Delete all data" in Settings, or by uninstalling the app (on the phone and on the watch). A Google Drive backup stays until you delete it or remove Wristport's access to your Google account.</p>
+
+<h2>8. Your choices and rights</h2>
+<ul>
+<li><strong>Permissions:</strong> every sensor, location, notification and Health Connect permission can be refused or withdrawn in Android settings; the app keeps working without the features that need it.</li>
+<li><strong>Access and copy:</strong> export all your data as CSV files at any time.</li>
+<li><strong>Delete:</strong> delete all data in the app, or the backup in your Google account.</li>
+<li>Depending on where you live (for example under the EU GDPR or Israel's Privacy Protection Law), you may have further rights. Because we do not hold your data, most requests are handled directly in the app; for anything else, write to us.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>Data is kept in the app's private storage, which other apps cannot read. Transfers between phone and watch and to Google Drive are encrypted by Google Play services. No method is perfect; protect your phone with a screen lock.</p>
+
+<h2>10. Children</h2>
+<p>Wristport is not directed at children under 16 and we do not knowingly handle data of children.</p>
+
+<h2>11. Not a medical device</h2>
+<p>Wristport is not a medical device and its numbers are estimates. See the health disclaimer and terms of use in the app.</p>
+
+<h2>12. Changes</h2>
+<p>If we change this policy, we will update the date above and, for important changes, tell you in the app before they apply.</p>
+
+<h2>13. Contact</h2>
+<p>Questions or requests: <a href="mailto:wristport.support@gmail.com">wristport.support@gmail.com</a>.</p>
+</section>
+
+<section class="lang" id="he" lang="he" dir="rtl">
+<h1>מדיניות הפרטיות של Wristport</h1>
+<p class="meta">עדכון אחרון: 12 בנובמבר 2026</p>
+
+<p>Wristport היא אפליקציה לטלפון Android ולשעון Galaxy Watch ‏(Wear OS). היא קוראת נתוני בריאות ופעילות מהשעון ומציגה אותם בטלפון. מדיניות זו מסבירה אילו נתונים האפליקציה מטפלת בהם, היכן הם נשמרים ואילו אפשרויות יש לכם. בקצרה: <strong>נתוני הבריאות שלכם נשארים במכשירים שלכם</strong>, אלא אם תפעילו את הגיבוי האופציונלי ל-Google Drive, ששומר עותק בחשבון Google שלכם. אין לנו שרת, איננו מוכרים נתונים, ובאפליקציה אין פרסומות או כלי ניתוח.</p>
+
+<h2>1. מי אנחנו</h2>
+<p>Wristport פותחה על ידי ירין בן אהרון ("אנחנו"). יצירת קשר: <a href="mailto:wristport.support@gmail.com">wristport.support@gmail.com</a>.</p>
+
+<h2>2. באילו נתונים האפליקציה מטפלת</h2>
+<div class="table-wrap"><table>
+<tr><th>נתונים</th><th>למה</th></tr>
+<tr><td>דופק, מרווחים בין פעימות (לשונות קצב הלב), חמצן בדם (SpO2), טמפרטורת עור</td><td>נמדדים בחיישני השעון כשמתחילים מדידה, אימון או מדידה אוטומטית מתוזמנת; מוצגים כתוצאות, היסטוריה ומגמות.</td></tr>
+<tr><td>צעדים, קומות, אימונים (סוג, זמן, משך, דופק, קלוריות, מרחק, מהירות)</td><td>מוצגים כפעילות היומית והיסטוריית האימונים.</td></tr>
+<tr><td>מדידות לחץ דם</td><td>מוזנות על ידיכם, או מיובאות מ-Health Connect אם תאשרו; מוצגות כיומן ומגמות.</td></tr>
+<tr><td>פרופיל: מין, תאריך לידה, גובה, משקל, רמת כושר, מטרת אימון</td><td>משמשים לחישוב אזורי הדופק והיעדים. מוזנים על ידיכם; לא חובה.</td></tr>
+<tr><td>הגדרות, כללי התראות, תאריך אישור התנאים</td><td>כדי שהאפליקציה תעבוד כפי שהגדרתם.</td></tr>
+<tr><td>מיקום (GPS) באימוני חוץ</td><td>רק אם הפעלתם GPS לאימון ואישרתם מיקום בשעון. משמש לחישוב מרחק ומהירות. <strong>נקודות המיקום אינן נשמרות ואינן נשלחות לטלפון.</strong></td></tr>
+<tr><td>רמת סוללת השעון ומצב החיבור</td><td>מוצגים במסך המכשיר.</td></tr>
+<tr><td>שם חשבון Google, כתובת אימייל ומזהה החשבון (רק אם נכנסתם עם Google)</td><td>כדי לקשר את הפרופיל והגיבוי לחשבון Google שלכם. ראו סעיף 5.</td></tr>
+</table></div>
+<p>האפליקציה אינה אוספת אנשי קשר, הודעות, תמונות, מזהה פרסום או היסטוריית מיקום מדויקת.</p>
+
+<h2>3. היכן הנתונים נשמרים</h2>
+<p>כל הנתונים נשמרים באחסון הפרטי של האפליקציה בטלפון, וחלקם לזמן קצר בשעון בזמן המדידה. הטלפון והשעון מחליפים נתונים דרך שכבת הנתונים של Wear OS ב-Google Play services, בדרך כלל ב-Bluetooth; כש-Bluetooth אינו זמין, שירות Wear OS של Google עשוי להעביר אותם ב-Wi-Fi או באינטרנט בצורה מוצפנת. אנחנו, המפתחים, לעולם לא מקבלים את הנתונים שלכם.</p>
+<p>האפליקציה קוראת את חיישני השעון דרך Health Sensor SDK של Samsung ו-Health Services של Google בשעון. האפליקציה אינה שולחת את הנתונים שלכם ל-Samsung או ל-Google; התוכנה שלהן בשעון פועלת לפי מדיניות הפרטיות שלהן.</p>
+
+<h2>4. Health Connect</h2>
+<p>אם תאשרו, Wristport קוראת רשומות <strong>לחץ דם</strong> מ-Health Connect בטלפון (למשל מאפליקציה של מד לחץ דם). היא אינה כותבת ל-Health Connect. נתונים שנקראו מ-Health Connect משמשים רק להצגה ב-Wristport, נשמרים בטלפון כמו שאר הנתונים, ונכללים בייצוא או בגיבוי האופציונלי שלכם. הם אינם משמשים לפרסום, אינם נמכרים ואינם משותפים עם איש. אפשר לבטל את ההרשאה בכל עת ב-Health Connect או בהגדרות של Wristport.</p>
+
+<h2>5. אופציונלי: כניסה עם Google וגיבוי ל-Google Drive</h2>
+<p>אפשר להשתמש ב-Wristport כאורחים, בלי חשבון. אם תבחרו להיכנס עם Google:</p>
+<ul>
+<li>נקבל מ-Google את שם החשבון, כתובת האימייל ומזהה החשבון, כדי להציג איזה חשבון מקושר. הם נשמרים בטלפון.</li>
+<li>אם תפעילו גם גיבוי, האפליקציה שומרת עותק של נתוני Wristport (הנתונים בסעיף 2, מלבד מיקום, שלעולם אינו נשמר) בתיקיית אפליקציה מוסתרת <strong>ב-Google Drive שלכם</strong>. רק Wristport יכולה לקרוא את התיקייה הזאת; אנחנו, המפתחים, לא. הגיבוי רץ אוטומטית (ב-Wi-Fi בזמן טעינה) וכשמקישים על "גיבוי עכשיו", כדי שתוכלו לשחזר את הנתונים בטלפון חדש.</li>
+<li>Google שומרת את הגיבוי לפי <a href="https://policies.google.com/privacy?hl=iw">מדיניות הפרטיות של Google</a>.</li>
+<li>אפשר למחוק את הגיבוי בהגדרות של Wristport, או להסיר את הגישה של Wristport בהגדרות חשבון Google, מה שמוחק גם את התיקייה המוסתרת שלה ב-Drive.</li>
+</ul>
+<p>השימוש של Wristport במידע שמתקבל מממשקי Google והעברתו יעמדו ב-<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, כולל דרישות השימוש המוגבל (Limited Use).</p>
+
+<h2>6. שיתוף</h2>
+<p>איננו מוכרים, משכירים או משתפים את הנתונים שלכם עם איש, ואיננו משתמשים בהם לפרסום. הנתונים יוצאים מהמכשירים שלכם רק כשאתם בוחרים בכך: כשמייצאים אותם לקובץ (הגדרות, "ייצוא הנתונים שלי"), או דרך הגיבוי האופציונלי ל-Google Drive שתואר למעלה. מה שתעשו בקובץ שייצאתם תלוי בכם.</p>
+
+<h2>7. כמה זמן הנתונים נשמרים</h2>
+<p>הנתונים נשארים בטלפון עד שתמחקו אותם. אפשר למחוק הכול עם "מחיקת כל הנתונים" בהגדרות, או בהסרת האפליקציה (בטלפון ובשעון). גיבוי ב-Google Drive נשאר עד שתמחקו אותו או תסירו את הגישה של Wristport לחשבון Google שלכם.</p>
+
+<h2>8. האפשרויות והזכויות שלכם</h2>
+<ul>
+<li><strong>הרשאות:</strong> אפשר לסרב לכל הרשאת חיישן, מיקום, התראות ו-Health Connect או לבטל אותה בהגדרות Android; האפליקציה ממשיכה לעבוד בלי התכונות שזקוקות לה.</li>
+<li><strong>עיון והעתק:</strong> אפשר לייצא את כל הנתונים כקובצי CSV בכל עת.</li>
+<li><strong>מחיקה:</strong> אפשר למחוק את כל הנתונים באפליקציה, או את הגיבוי בחשבון Google.</li>
+<li>בהתאם למקום מגוריכם (למשל לפי ה-GDPR באיחוד האירופי או חוק הגנת הפרטיות בישראל) ייתכן שיש לכם זכויות נוספות. מכיוון שאיננו מחזיקים בנתונים שלכם, רוב הבקשות מטופלות ישירות באפליקציה; לכל דבר אחר, כתבו לנו.</li>
+</ul>
+
+<h2>9. אבטחה</h2>
+<p>הנתונים נשמרים באחסון הפרטי של האפליקציה, שאפליקציות אחרות אינן יכולות לקרוא. ההעברות בין הטלפון לשעון ול-Google Drive מוצפנות על ידי Google Play services. אין שיטה מושלמת; הגנו על הטלפון בנעילת מסך.</p>
+
+<h2>10. ילדים</h2>
+<p>Wristport אינה מיועדת לילדים מתחת לגיל 16, ואיננו מטפלים ביודעין בנתונים של ילדים.</p>
+
+<h2>11. לא מכשיר רפואי</h2>
+<p>Wristport אינה מכשיר רפואי והמספרים שלה הם הערכות. ראו את הצהרת הבריאות ותנאי השימוש באפליקציה.</p>
+
+<h2>12. שינויים</h2>
+<p>אם נשנה את המדיניות, נעדכן את התאריך למעלה, ועל שינויים חשובים נודיע באפליקציה לפני שייכנסו לתוקף.</p>
+
+<h2>13. יצירת קשר</h2>
+<p>שאלות או בקשות: <a href="mailto:wristport.support@gmail.com">wristport.support@gmail.com</a>.</p>
+</section>
+</main>
+</body>
+</html>
